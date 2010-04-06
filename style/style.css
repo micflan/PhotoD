@@ -1,0 +1,69 @@
+@import url('reset.css');
+@import url('grid.css');
+
+body {
+	font-size: 75%;
+	color: #222; 
+	background: #fff;
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	margin-bottom : 0px;
+	padding-bottom : 10px;
+}
+
+h1, #siteTitle { font-size: 3em; line-height: 1; margin-top : 0.5em; display : block; }
+h2, #siteByline { font-size: 2em; margin-bottom: 0em; line-height : 3em; display : block; border-bottom : 1px solid silver; }
+
+a, a:active, a:focus, a:hover, a:visited { color : blue; text-decoration : none; }
+a:hover, a:active { text-decoration : underline; }
+
+.margin { margin : 20px; }
+.marginL { margin-left : 20px; }
+.marginR { margin-right : 20px; }
+.marginT { margin-top : 20px; }
+.marginB { margin-bottom : 20px; }
+
+.padding { padding : 20px; }
+.paddingL { padding-left : 20px; }
+.paddingR { padding-right : 20px; }
+.paddingT { padding-top : 20px; }
+.paddingB { padding-bottom : 20px; }
+
+.error p { margin : 0px; padding : 0px; }
+
+ul.noStyle { list-style : none; overflow : hidden; margin : 0px; }
+    ul.noStyle li { float : left; text-indent : 1em;}
+
+.dropList1 h3 { cursor : pointer; line-height : 2.5em; margin : 0px; background : #eaeaea; text-indent : 10px;}
+.dropList1 div { padding : 20px; }
+
+
+ul#mainmenu li { text-indent : 0px; }
+ul#mainmenu li a { display : block; margin : 3px; padding : 3px; text-align : center; text-indent : 0px; }
+li.on a { background : #eaeaea; }
+
+ul#gallery { overflow : hidden; list-style : none; margin : 0px; padding : 0px; }
+ul#gallery li { margin : 0px; padding : 0px; float : left; width : 25%; }
+ul#gallery li a, ul#gallery li a:hover, ul#gallery li a:visited, ul#gallery li a:active, ul#gallery li a:focus { display : block; padding-top : 15px; padding-bottom : 15px; }
+
+
+ul#gallery li a:hover, ul#gallery li a:focus { background : silver; }
+ul#gallery li a:active { background : gray; }
+
+ul#gallery li.on a { background : #2e2e2e; }
+
+ul#gallery li img { margin : auto; width : 200px; display : block; }
+
+ul#gallery li.first { float : none; width : 100%; }
+ul#gallery li.first img { width : 80%; height : auto; float : left; margin-top : 40px; margin-bottom : 40px; }
+
+
+ul#gallery li .next, ul#gallery li .previous, ul#gallery li .next:hover, ul#gallery li .previous:hover { margin : 0px; padding : 0px !important;  margin-top : 200px; display : block; width : 10%; float : left; background : silver; text-align : center; color : black; font-size : 1.5em; line-height : 3em; border : 0px; }
+
+
+ul#gallery li.second { }
+ul#gallery li.second img { }
+
+ul#gallery li.last { }
+ul#gallery li.last img { }
+
+.hidden { display : none; visibility : hidden; width : 0px; height : 0px; position : absolute; }
